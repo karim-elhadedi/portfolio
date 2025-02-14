@@ -24,38 +24,6 @@
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     ],
-    "experiences": [
-        {
-            "title": "Responsable communications",
-            "company": "Restaurant l'Ardoise",
-            "start": 2025,
-            "end": 2026,
-            "description": "Développement de fonctionnalités front-end pour le site web de l'entreprise.",
-            "tasks": [
-                "Accroître la visibilité du restaurant L’Ardoise et le différencier du marché local.",
-                "Réaliser un état des lieux du positionnement du restaurant sur le marché local de Perros-Guirec.",
-                "Élaborer et appuyer la stratégie de communication.",
-                "Produire du contenu audiovisuel et graphique (témoignages clients, portraits de salariés et fournisseurs).",
-                "Améliorer le site web.",
-                "Concevoir un visuel attractif pour le recrutement des saisonniers."
-            ],
-            "logo": "ardoise.png"
-        },
-        {
-            "title": "Réceptionniste",
-            "company": "Belambra Clubs",
-            "start": 2024,
-            "description": "Dans ce poste j'ai eu une adaptation rapide aux outils tels que Resalys pour les réservations, Money Web pour la gestion de la caisse et 1Check pour l'hébergement. J'ai fais également preuve d'empathie, d'écoute envers les clients et je me suis toujours assuré de les accueillir avec un sourire.",
-            "tasks": [
-                "Accueillir physiquement et téléphoniquement les clients avec professionnalisme et courtoisie",
-                "Effectuer les formalités d'enregistrement et de départ",
-                "Fournir des informations pertinentes sur le club, les activités et les événements locaux",
-                "Gérer les réservations et les demandes spéciales via notre système informatique",
-                "Assurer la gestion de la caisse et des paiements"
-            ],
-            "logo": "belambra.jpg"
-        }
-    ],
     "projects": [
         {
             "title": "Alternance chez Restaurant l'Ardoise",

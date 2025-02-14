@@ -5,7 +5,6 @@ import Hero from './components/Hero.jsx'
 import Bio from './pages/Bio.jsx'
 import Trainings from './pages/Trainings.jsx'
 import Interests from './pages/Interests.jsx'
-import Experiences from './pages/Experiences.jsx'
 import Projects from './pages/Projects.jsx'
 import Skills from './pages/Skills.jsx'
 import Contacts from './pages/Contacts.jsx'
@@ -30,7 +29,6 @@ export default function App() {
         <Bio bio={settings.biography} portrait={getAssetURL("media", settings.portrait)}/>
         <Trainings trainings={settings.trainings}/>
         <Interests interests={settings.interests}/>
-        <Experiences experiences={settings.experiences}/>
         <Projects projects={settings.projects} />
         <Skills skills={settings.skills}/>
         <Contacts contacts={settings.contacts}/>

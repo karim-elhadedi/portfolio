@@ -6,7 +6,7 @@ import { ArrowDownTrayIcon } from '@heroicons/react/24/solid'
 function CVMenu(includeCV, cvPath) {
     console.log(cvPath)
     if (includeCV) {
-        let cv = getAssetURL("download",cvPath )
+        let cv = getAssetURL("download", cvPath)
         return (
             <li className="ml-2">
                 <a href={cv} download className="align-end mt-1 lg:my-0 btn btn-sm btn-outline btn-primary py-1 max-w-20"><ArrowDownTrayIcon className="size-4" /> CV</a>
@@ -30,7 +30,7 @@ export default function Menu({ ulClasses, liClasses, includeCV, cvPath, underlin
                     Bio
                 </Link>
             </li>
-            <li className={liClasses}> 
+            <li className={liClasses}>
                 <Link activeClass="active"
                     to="training"
                     spy={true}
@@ -40,7 +40,7 @@ export default function Menu({ ulClasses, liClasses, includeCV, cvPath, underlin
                     Formation
                 </Link>
             </li>
-            <li className={liClasses}> 
+            <li className={liClasses}>
                 <Link activeClass="active"
                     to="interests"
                     spy={true}
@@ -50,7 +50,17 @@ export default function Menu({ ulClasses, liClasses, includeCV, cvPath, underlin
                     Centres d'intérêts
                 </Link>
             </li>
-            <li className={liClasses}> 
+            <li className={liClasses}>
+                <Link activeClass="active"
+                    to="experiences"
+                    spy={true}
+                    smooth={true}
+                    duration={300}
+                    className={underline ? "hover:cursor-pointer hover:underline" : ""}>
+                    Expériences
+                </Link>
+            </li>
+            <li className={liClasses}>
                 <Link activeClass="active"
                     to="projects"
                     spy={true}
